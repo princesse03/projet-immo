@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background-image: url(image/fond.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background-color: #04321c;
+     display: flex;
+     justify-content: space-between;
+     position: static;
+     width: 100%;
+ }
+ .menu ul{
+     display: flex;
+     gap: 30px;
+     margin:40px 20PX 0 100px ;
+ }
+ .menu ul li{
+     list-style: none;
+     
+ }
+ .menu ul li a{
+     text-decoration: none;
+     text-transform: uppercase;
+     color: whitesmoke;
+ }
+ .visite ul{
+     display: flex;
+     gap: 30px;
+     margin-top:30px ;
+     margin-right: 120px;
+ }
+ .visite ul li{
+     list-style: none;
+     background-color: #E0CB28;
+     width: 150px;
+     height: 40px;
+     border-radius: 15px;
+     text-align: center;    
+ }
+ .visite ul li a{
+     text-decoration: none;
+     text-transform: uppercase;
+     color: #04321c;
+     background-color: rgb(255,140,0 0.7);
+     border-radius: 10px;
+     margin-bottom: 2    0px;
+ 
+ }
+ .visite ul li a h4{
+     margin-top: 10px;
+ }
+ .logo img{
+     width: 100px;
+     height: 90px;
+     background-color: rgba(254, 253, 253, 0.99);
+     filter: none;
+ }
+
+    .imaz{
+        background-image: url(image/la-cite-douane-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 450px;
+    }
+  .projets{
+    position: relative;
+    justify-content:space-between;
+    flex-direction: column;
+    width: 950px;
+    height: 800px;
+    margin: 30px 0 0 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 10px;
+}
+.text{
+    text-align: center;
+}
+.improj{
+    position: relative;
+    justify-content:center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+} 
+.proj1{
+    display: flex;
+    gap: 30px;
+}
+.proj1 img{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.improj img{
+    width: 250px;
+    height: 150px;
+    margin: 0, 10px, 0 40px;
+}
+.bouton3{
+    background-color: #d8e979;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 80px;
+  }
+  .bouton3 h4{
+    text-align: center;
+    margin-top: 10px;
+  }
+  .bouton3 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fcfbf7;
+    background-color: rgb(255,140,0 0.7);
+    border-radius: 10px;
+   
+   
+  }
+
+  .info1 h5{
+    text-align: center;
+    border: 1rem solid #04321c;
+    margin-top: -20px;
+  }
+  .info1 p h4{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+  }
+  .info2 h5{
+    text-align: center;
+    border: 1rem solid #04321c;
+    margin-top: -20px;
+  }
+  .info2 p h4{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+  }
+  .info3 h5{
+    text-align: center;
+    border: 1rem solid #04321c;
+    margin-top: -20px;
+  }
+  .info3 p h4{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+  }
+  .choose{
+    flex-direction: column;
+    background-image: url(image/choixx.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    justify-content:center;
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 100px;
+  }
+.formule{
+    display: flex;
+    gap: 100px;
+}
+.tet{
+    text-align: center;
+}
+.formule h4{
+    text-align: center;
+    margin-top: 150px;
+    color: #04321c;
+}
+.formule1{
+    background-color: rgb(95, 158, 160,0.7);
+    position: relative;
+    justify-content:center;
+    width: 350px;
+    height: 350px;
+    margin-top: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-left: 20px;
+}
+.formule1 a{
+    text-decoration: none;
+}
+h4{
+    text-align: center;
+}
+.formule1 a h4{
+    background-color: rgb(136, 242, 191);
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.formule2{
+    background-color: rgb(255, 248, 220,0.7);
+    position: relative;
+    justify-content:center;
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+.formule2 a{
+    text-decoration: none;
+}
+.formule2 a h4{
+    background-color: #88f2bf;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.formule3{
+    background-color: rgb(154, 205, 50,0.5);
+    position: relative;
+    justify-content:center;
+    width: 350px;
+    height: 330px;
+    margin-top: 55px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+.formule3 a{
+    text-decoration: none;
+}
+.formule3 a h4{
+    background-color: #88f2bf;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.formule4{
+  background-color: rgb(240, 128, 128, 0.5);
+    position: relative;
+    justify-content:center;
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-right: 20px;
+}
+.formule4 a{
+    text-decoration: none;
+}
+.formule4 a h4{
+    background-color: #88f2bf;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.partage{
+  flex-direction: column ;
+  display: flex;
+  gap: 30px;
+  margin-top: 90px;
+  margin-left: 170px;
+}
+.txt{
+    background-color:#b1e3cb;
+    width: 900px;
+    height: 50px;
+}
+.chou{
+  display: flex;
+  gap: 30px;
+}
+.vid img{
+    width: 450px;
+    height: 350px;
+}
+
+.immm{
+    background-color: #e3e3e1;
+    width: 450px;
+    height: 350px;
+    animation-name: visite;
+    animation-duration: 20S;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@keyframes visite{
+    0%   {background-image: url(image/4D2.jpg);}
+    25%  {background-image: url(image/location5.jpg);}
+    50%  {background-image: url(image/back1.webp);}
+    100% {background-image: url(image/imagest2.jpg);}
+    }
+
+footer{
+    background-color: #E0CB28;
+    margin-top: 200px;
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+.sectfoot{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10rem 0px 10rem;
+}
+footer li{
+    list-style: none;
+    color: #04321c;
+    
+}
+footer .sectfoot  ul  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+   
+}
+
+ footer .hr {
+    height:2px;
+    border-width:0;
+    color:#04321c;
+    background-color:gray;
+    width: 100%;
+    position: static;
+}
+.droit{
+    text-align: center;
+    margin-top: 10px;
+    color: #04321c;
+}

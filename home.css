@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    animation-name: chez_soi;
+    animation-duration: 20S;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@keyframes chez_soi {
+    0%   {background-image: url(image/location5.jpg);}
+    25%  {background-image: url(image/location4.webp);}
+    50%  {background-image: url(image/location6.jpg);}
+    100% {background-image: url(image/la-cite-douane-3.jpg);}
+  }
+
+header{
+   background-color: #04321c;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    gap: 30px;
+    margin:40px 20PX 0 100px ;
+}
+.menu ul li{
+    list-style: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.visite ul{
+    display: flex;
+    gap: 30px;
+    margin-top:30px ;
+    margin-right: 120px;
+}
+.visite ul li{
+    list-style: none;
+    background-color: #E0CB28;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;    
+}
+.visite ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #04321c;
+    background-color: rgb(255,140,0 0.7);
+    border-radius: 10px;
+    margin-bottom: 2    0px;
+
+}
+.visite ul li a h4{
+    margin-top: 10px;
+}
+.logo img{
+    width: 100px;
+    height: 90px;
+    background-color: rgba(254, 253, 253, 0.99);
+    filter: none;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+   
+}
+.recherche{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content:center;
+    background-color: rgba(243, 240, 235, 0.7);
+    position: static;
+    width: 630px;
+    height:200px;
+    margin: 95px 0 0 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.ecrire p{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.corect{
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+ .div input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 60px;
+    padding: 40px;
+}
+#place{
+    text-align: center;
+    width: 175px;
+}
+.cocher{
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.case ul{
+    display: flex;
+    gap: 30px;
+    margin-top:30px ;
+    margin-right: 120px;
+}
+.case ul li{
+    list-style: none;
+    background-color:whitesmoke; 
+    width: 150px;
+    height: 40px;
+    border-radius: 1px;
+    text-align: center;    
+}
+.case ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #04321c;
+    background-color: rgb(255,140,0 0.7);
+    border-radius: 1px;
+    margin-bottom: 2    0px;
+
+}
+.case ul li a h4{
+    margin-top: 10px;
+}
+
+.clic{
+    margin-top: 10px;
+}
+.clic ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.clic ul li{
+    list-style: none;
+}
+.clic ul li a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(4, 50, 28);
+    height: 20px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #E0CB28;
+    margin-top: 200px;
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+.sectfoot{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10rem 0px 10rem;
+}
+footer li{
+    list-style: none;
+    color: #04321c;
+    
+}
+footer .sectfoot  ul  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+   
+}
+
+ footer .hr {
+    height:2px;
+    color:#04321c;
+    background-color:gray;
+    width: 100%;
+    position: static;
+    align-items: center;
+}
+.droit{
+    text-align: center;
+    margin-top: 10px;
+    color: #04321c;
+}
+
+
+
