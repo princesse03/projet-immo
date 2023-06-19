@@ -14,60 +14,6 @@ body{
     50%  {background-image: url(image/location6.jpg);}
     100% {background-image: url(image/la-cite-douane-3.jpg);}
   }
-
-header{
-   background-color: #04321c;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-}
-.menu ul{
-    display: flex;
-    gap: 30px;
-    margin:40px 20PX 0 100px ;
-}
-.menu ul li{
-    list-style: none;
-    
-}
-.menu ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: whitesmoke;
-}
-.visite ul{
-    display: flex;
-    gap: 30px;
-    margin-top:30px ;
-    margin-right: 120px;
-}
-.visite ul li{
-    list-style: none;
-    background-color: #E0CB28;
-    width: 150px;
-    height: 40px;
-    border-radius: 15px;
-    text-align: center;    
-}
-.visite ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #04321c;
-    background-color: rgb(255,140,0 0.7);
-    border-radius: 10px;
-    margin-bottom: 2    0px;
-
-}
-.visite ul li a h4{
-    margin-top: 10px;
-}
-.logo img{
-    width: 100px;
-    height: 90px;
-    background-color: rgba(254, 253, 253, 0.99);
-    filter: none;
-}
 .section1{
     display: flex;
     justify-content: center;
@@ -83,8 +29,8 @@ header{
     background-color: rgba(243, 240, 235, 0.7);
     position: static;
     width: 630px;
-    height:200px;
-    margin: 95px 0 0 50px;
+    height:300px;
+    margin: 25px 0 0 50px;
     border-radius: 30px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
@@ -96,7 +42,8 @@ header{
     display: flex;
     gap: 10px;
     margin-left: 60px;
-    margin-top: 60px;
+    position: relative;
+    /* margin-top: 20px; */
 }
 
  .div input{
@@ -116,13 +63,17 @@ header{
     margin-left: 40px;
     margin-bottom: 10px;
 }
-.case ul{
+.case{
+    margin-left: 150px;
+    margin-top: -80px;
+}
+.case input{
     display: flex;
     gap: 30px;
     margin-top:30px ;
     margin-right: 120px;
 }
-.case ul li{
+.case input{
     list-style: none;
     background-color:whitesmoke; 
     width: 150px;
@@ -130,7 +81,7 @@ header{
     border-radius: 1px;
     text-align: center;    
 }
-.case ul li a{
+.case input{
     text-decoration: none;
     text-transform: uppercase;
     color: #04321c;
@@ -139,9 +90,9 @@ header{
     margin-bottom: 2    0px;
 
 }
-.case ul li a h4{
+/* .case ul li a h4{
     margin-top: 10px;
-}
+} */
 
 .clic{
     margin-top: 10px;
@@ -161,7 +112,7 @@ header{
     color: rgb(255, 253, 253);
     padding: 10px;
     text-align: center;
-    background-color: rgb(4, 50, 28);
+    background-color: #04321c;
     height: 20px;
     border-radius: 15px;
 }
@@ -203,6 +154,14 @@ footer .sectfoot  ul  a{
     margin-top: 10px;
     color: #04321c;
 }
+#modif{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 200px;
+    color: red;
+    margin-left: 40px;
+  }
 
 
 

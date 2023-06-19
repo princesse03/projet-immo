@@ -44,7 +44,7 @@ header{
  .visite ul li a{
      text-decoration: none;
      text-transform: uppercase;
-     color: #04321c;
+     color: rgb(4, 50, 28, 0.7);
      background-color: rgb(255,140,0 0.7);
      border-radius: 10px;
      margin-bottom: 2    0px;
